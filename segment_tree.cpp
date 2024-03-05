@@ -63,7 +63,7 @@ int main() {
     while (q--) {
         int type, x, y;
         cin >> type >> x >> y;
-        if (type == 1) update(1, 1, n, x, y); // Gán giá trị y cho phần tử ở vị trí x 
-        else cout << get(1, 1, n, x, y) << '\n'; // In ra giá trị nhỏ nhất trong đoạn [x, y]
+        if (type == 1) update(1, 1, n, x, y); 
+        else cout << get(1, 1, n, x, y) << '\n'; 
     }
 }
